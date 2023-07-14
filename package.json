@@ -1,6 +1,6 @@
 {
   "name": "@arweave-wallet-kit/arconnect-strategy",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "ArConnect strategy for the Arweave Wallet Kit",
   "repository": "https://github.com/labscommunity/wallet-kit-arconnect",
   "author": "Marton Lederer <marton@lederer.hu>",
