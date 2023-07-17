@@ -1,4 +1,5 @@
 import BrowserWalletStrategy from "@arweave-wallet-kit/browser-wallet-strategy";
+import { callWindowApi } from "@arweave-wallet-kit/core/wallet";
 import { Strategy } from "@arweave-wallet-kit/core/strategy";
 
 export default class ArConnectStrategy
@@ -27,6 +28,6 @@ export default class ArConnectStrategy
   }
 
   public async addToken(id: string): Promise<void> {
-    return await super.callWindowApi("addToken", [id]);
+    return await callWindowApi("addToken", [id]);
   }
 }
