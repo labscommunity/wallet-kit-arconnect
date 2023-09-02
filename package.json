@@ -29,7 +29,7 @@
     }
   },
   "devDependencies": {
-    "@arweave-wallet-kit/browser-wallet-strategy": "^0.0.1-beta.1",
+    "@arweave-wallet-kit/browser-wallet-strategy": "^0.0.1-beta.2",
     "@arweave-wallet-kit/core": "^0.0.1-beta.1",
     "@types/node": "^20.4.2",
     "arweave": "^1.12.2",
